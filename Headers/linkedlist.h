@@ -15,7 +15,7 @@ public:
     void setHead(Node*);
     void setTail(Node*);
     bool isEmpty();
-    void insertNode(unsigned);
+    void insertNode(int);
     void insertNode(unsigned, int);
     void deleteHead();
     void deleteNode(unsigned);

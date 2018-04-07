@@ -65,7 +65,7 @@ bool LinkedList::isEmpty() {
 }
 
 // Push node at the end of the list
-void LinkedList::insertNode(unsigned value) {
+void LinkedList::insertNode(int value) {
     Node* temp = createEmptyNode(value);
 
     // If list is empty
